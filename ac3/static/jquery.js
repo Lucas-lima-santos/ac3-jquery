@@ -12,7 +12,7 @@ $(document).ready(function(){
                 data: JSON.stringify(data),
                 success: function(callback) {
                     console.log(callback);
-                    alert(callback.Completo)
+                    alert(callback.html47)
                 },
                 error: function() {
                     $(this).html("error!");
